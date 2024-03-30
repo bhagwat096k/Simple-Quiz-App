@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #question-container {
+    margin-bottom: 30px;
+  }
+  
+  #question {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #choices {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .choice {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .choice:hover {
+    background-color: #0056b3;
+  }
+  
+  .choice.selected {
+    background-color: #28a745;
+  }
+  
+  .tick-mark {
+    margin-right: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  #clear-btn,
+  #confirm-btn {
+    padding: 12px 20px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #confirm-btn {
+    background-color: #28a745;
+  }
+  
+  #clear-btn:hover,
+  #confirm-btn:hover {
+    opacity: 0.9;
+  }
+  
